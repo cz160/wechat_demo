@@ -1,5 +1,5 @@
 {
-  "entryPagePath":"pages/talk/talk",
+  "entryPagePath":"pages/talk/talk", 
   "pages": [
     "pages/index/index",
     "pages/about/about",
@@ -8,11 +8,14 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#00FFFF",
     "navigationBarTitleText": "胖虎聊前端",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
+    "color":"#000",
+    "selectedColor":"fff",
+    "backgroundColor":"#00FFFF",
     "list": [
       {
         "pagePath": "pages/index/index",
