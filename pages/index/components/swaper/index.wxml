@@ -1,0 +1,12 @@
+<view class="page-section page-section-spacing swiper">
+  <slot name="a"></slot>
+  <slot name="b"></slot>
+  <swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{background}}" wx:key="*this">
+      <swiper-item bindtap="click" bindlongpress="longpress">
+        <view class="swiper-item {{item}}"></view>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

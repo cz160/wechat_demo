@@ -1,5 +1,5 @@
 {
-  "entryPagePath":"pages/talk/talk", 
+  "entryPagePath":"pages/index/index", 
   "pages": [
     "pages/index/index",
     "pages/about/about",
@@ -34,6 +34,9 @@
         "text": "关于我们"
       }
     ]
+  },
+  "usingComponents": {
+    "TestCompoent":"/components/test/test"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

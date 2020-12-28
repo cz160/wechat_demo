@@ -1,17 +1,18 @@
 <view class="page-body">
-    <view class="page-section page-section-spacing swiper">
-      <swiper indicator-dots="{{indicatorDots}}"
-        autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
-        <block wx:for="{{background}}" wx:key="*this">
-          <swiper-item>
-            <view class="swiper-item {{item}}"></view>
-          </swiper-item>
-        </block>
-      </swiper>
-    </view>
+    <Swiper>
+      <View slot="a">这是插槽a</View>
+      <View slot="b">这是插槽b</View>
+    </Swiper>
 </view>
 <view class="typeContainer">
   <block wx:for="{{typeList}}" wx:key="*this">
     <view class="typeItem">{{item}}</view>
   </block>
+</view>
+<TestCompoent></TestCompoent>
+<view>
+  <text>
+  您的名字：{{value}}
+  </text>
+  <input model:value="{{value}}" />
 </view>
