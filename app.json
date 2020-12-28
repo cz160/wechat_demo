@@ -1,0 +1,37 @@
+{
+  "entryPagePath":"pages/talk/talk",
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/source/source",
+    "pages/talk/talk"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "胖虎聊前端",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/talk/talk",
+        "text": "技术讨论"
+      },
+      {
+        "pagePath": "pages/source/source",
+        "text": "推荐资源"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于我们"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
